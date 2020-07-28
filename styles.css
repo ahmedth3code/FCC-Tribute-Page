@@ -1,9 +1,34 @@
+:root {
+    --main-font : 'Rowdies', cursive;
+    --main-bg: rgba(120, 119, 115,0.3);
+    --secondary-bg: rgb(233, 240, 233);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--main-font);
+    text-align: center;
 }
 
-body {
-    background-color: rebeccapurple;
+#main {
+    background-color: var(--main-bg);
+    padding: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    background-color: var(--secondary-bg);
+    padding: 10px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
