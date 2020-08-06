@@ -3,6 +3,7 @@
     --secondary-font: 'Open Sans', sans-serif;
     --main-bg: rgba(120, 119, 115,0.3);
     --secondary-bg: rgb(233, 240, 233);
+    --main-gap: 50px;
 }
 
 /* General Styles */
@@ -10,26 +11,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
+    /* text-align: center; */
 }
 
-h2 {
+h2.sub-title {
     font-family: var(--main-font);
+    margin-bottom: 15px;
 }
 
 p {
     font-family: var(--secondary-font);
+    margin-bottom: 10px;
 }
 
-ul {
+#contribution-list {
     font-family: var(--secondary-font);
+}
+
+#contribution-list li {
+    margin: 5px;
+    list-style: none;
 }
 /* ********************** */
 
 /* Styles to the main element */
 #main {
     background-color: var(--main-bg);
-    padding: 50px;    
+    padding: var(--main-gap);    
 }
 /* **************************** */
 
@@ -38,6 +46,7 @@ ul {
 #title {
     text-align: center;
     font-family: var(--main-font);
+    margin-bottom: var(--main-gap);
 }
 /* ******************************* */
 
@@ -45,7 +54,7 @@ ul {
 /* Image related styles */
 #img-div {
     background-color: var(--secondary-bg);
-    padding: 50px;
+    padding: var(--main-gap);
 }
 
 #image {
@@ -59,15 +68,16 @@ ul {
     margin: 8px 0;
     font-weight: normal;
     font-weight: bold;
+    text-align: center;
 }
 /* ************************************* */
 
 /* Styles to tribute info ssection */
 #tribute-info {
-    margin: 50px;
+    margin: var(--main-gap);
 }
 
 #tribute-info div{
-    margin: 50px 0;
+    margin: var(--main-gap) 0;
 }
 /* ************************************* */
