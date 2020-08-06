@@ -1,29 +1,51 @@
 :root {
     --main-font : 'Rowdies', cursive;
+    --secondary-font: 'Open Sans', sans-serif;
     --main-bg: rgba(120, 119, 115,0.3);
     --secondary-bg: rgb(233, 240, 233);
 }
 
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--main-font);
     text-align: center;
 }
 
+h2 {
+    font-family: var(--main-font);
+}
+
+p {
+    font-family: var(--secondary-font);
+}
+
+ul {
+    font-family: var(--secondary-font);
+}
+/* ********************** */
+
+/* Styles to the main element */
 #main {
     background-color: var(--main-bg);
-    padding: 10px;
+    padding: 50px;    
 }
+/* **************************** */
 
+
+/* Styles to title */
 #title {
     text-align: center;
+    font-family: var(--main-font);
 }
+/* ******************************* */
 
+
+/* Image related styles */
 #img-div {
     background-color: var(--secondary-bg);
-    padding: 10px;
+    padding: 50px;
 }
 
 #image {
@@ -32,3 +54,20 @@
     display: block;
     margin: auto;
 }
+
+#img-caption {
+    margin: 8px 0;
+    font-weight: normal;
+    font-weight: bold;
+}
+/* ************************************* */
+
+/* Styles to tribute info ssection */
+#tribute-info {
+    margin: 50px;
+}
+
+#tribute-info div{
+    margin: 50px 0;
+}
+/* ************************************* */
