@@ -30,7 +30,7 @@ p {
 
 #contribution-list li {
     margin: 5px;
-    list-style: none;
+    margin-left: 20px;
 }
 /* ********************** */
 
@@ -79,5 +79,9 @@ p {
 
 #tribute-info div{
     margin: var(--main-gap) 0;
+}
+
+#tribute-link {
+    text-align: center;
 }
 /* ************************************* */
