@@ -11,26 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-align: center; */
-}
-
-h2.sub-title {
-    font-family: var(--main-font);
-    margin-bottom: 15px;
-}
-
-p {
-    font-family: var(--secondary-font);
-    margin-bottom: 10px;
-}
-
-#contribution-list {
-    font-family: var(--secondary-font);
-}
-
-#contribution-list li {
-    margin: 5px;
-    margin-left: 20px;
 }
 /* ********************** */
 
@@ -54,7 +34,7 @@ p {
 /* Image related styles */
 #img-div {
     background-color: var(--secondary-bg);
-    padding: var(--main-gap);
+    padding: var(--main-gap) var(--main-gap) 25px var(--main-gap);
 }
 
 #image {
@@ -65,23 +45,48 @@ p {
 }
 
 #img-caption {
-    margin: 8px 0;
-    font-weight: normal;
-    font-weight: bold;
+    margin-top: 25px;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    #img-div {
+        padding: 10px;
+    }
+
+    #img-caption {
+        margin-top: 8px;
+    }
+}
+
 /* ************************************* */
 
 /* Styles to tribute info ssection */
-#tribute-info {
-    margin: var(--main-gap);
-}
 
-#tribute-info div{
+.info-section {
     margin: var(--main-gap) 0;
 }
 
-#tribute-link {
+.second-title {
+    font-family: var(--main-font);
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-family: var(--secondary-font);
+    margin-bottom: 10px;
+}
+
+#link-paragraph {
     text-align: center;
+    font-weight: bold;
+}
+
+#contribution-list {
+    font-family: var(--secondary-font);
+}
+
+#contribution-list li {
+    margin: 5px 5px 5px 20px;
 }
 /* ************************************* */
