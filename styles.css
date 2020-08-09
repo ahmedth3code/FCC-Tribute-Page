@@ -1,0 +1,92 @@
+:root {
+    --main-font : 'Rowdies', cursive;
+    --secondary-font: 'Open Sans', sans-serif;
+    --main-bg: rgba(120, 119, 115,0.3);
+    --secondary-bg: rgb(233, 240, 233);
+    --main-gap: 50px;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ********************** */
+
+/* Styles to the main element */
+#main {
+    background-color: var(--main-bg);
+    padding: var(--main-gap);    
+}
+/* **************************** */
+
+
+/* Styles to title */
+#title {
+    text-align: center;
+    font-family: var(--main-font);
+    margin-bottom: var(--main-gap);
+}
+/* ******************************* */
+
+
+/* Image related styles */
+#img-div {
+    background-color: var(--secondary-bg);
+    padding: var(--main-gap) var(--main-gap) 25px var(--main-gap);
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 25px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    #img-div {
+        padding: 10px;
+    }
+
+    #img-caption {
+        margin-top: 8px;
+    }
+}
+
+/* ************************************* */
+
+/* Styles to tribute info ssection */
+
+.info-section {
+    margin: var(--main-gap) 0;
+}
+
+.second-title {
+    font-family: var(--main-font);
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-family: var(--secondary-font);
+    margin-bottom: 10px;
+}
+
+#link-paragraph {
+    text-align: center;
+    font-weight: bold;
+}
+
+#contribution-list {
+    font-family: var(--secondary-font);
+}
+
+#contribution-list li {
+    margin: 5px 5px 5px 20px;
+}
+/* ************************************* */
