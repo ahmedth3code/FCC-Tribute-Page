@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rowdies:wght@300;700&display=swap');
 
 :root {
     --main-font : 'Rowdies', cursive;
@@ -49,6 +48,7 @@
 #img-caption {
     margin-top: 25px;
     text-align: center;
+    font-family: var(--secondary-font);
 }
 
 @media (max-width: 900px) {
@@ -90,5 +90,9 @@
 
 #contribution-list li {
     margin: 5px 5px 5px 20px;
+}
+
+#link-paragraph {
+    font-family: var(--secondary-font);
 }
 /* ************************************* */
